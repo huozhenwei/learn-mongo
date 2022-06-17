@@ -11,7 +11,8 @@ async function main() {
         //     price: { type: Number }
         // })
 
-        // 创建Model -- 有model 就可以创建对应数据，每个实例化的model 成为 document，对应数据库中的一条数据
+        // model -- model是从 Schema 衍生而来的构造函数，用于实例化最终的数据
+        // 创建Model -- 有model 就可以创建对应数据，每个实例化的model 称为 document，对应数据库中的一条数据
         //const ProductModel = model('Product', ProductSchema)
 
 
